@@ -1,7 +1,8 @@
 package refactoringGuruExample;
 
 /**
- *
+ * Decorator, implements the component interface and it has a HAS-A relationship with the component interface.
+ * 
  */
 
 public abstract class DataSourceDecorator implements DataSource{

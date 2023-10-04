@@ -2,7 +2,7 @@ package baeldungExample;
 
 /**
  * A Decorator pattern can be used to attach additional responsibilities to an object statically or dynamically.
- * We hace a ChristmasTree we cant to decorate without change the object, just adding some decorations.
+ * We have a ChristmasTree we cant to decorate without change the object, just adding some decorations.
  */
 
 public abstract class TreeDecorator implements ChristmasTree{

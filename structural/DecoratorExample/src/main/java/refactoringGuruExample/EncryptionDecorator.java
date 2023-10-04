@@ -1,5 +1,9 @@
 package refactoringGuruExample;
 
+/**
+ * This is the Decorator to add Encryption capabilities
+ */
+
 public class EncryptionDecorator extends DataSourceDecorator {
     public EncryptionDecorator(DataSource dataSource) {
         super(dataSource);

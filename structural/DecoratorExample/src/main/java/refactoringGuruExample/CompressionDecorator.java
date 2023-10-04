@@ -1,5 +1,9 @@
 package refactoringGuruExample;
 
+/**
+ * This is the Decorator that will be adding Compression capabilities
+ */
+
 public class CompressionDecorator extends DataSourceDecorator{
     public CompressionDecorator(DataSource dataSource) {
         super(dataSource);
